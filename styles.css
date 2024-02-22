@@ -1,0 +1,10 @@
+
+
+nav a:hover {
+  
+  color: rgb(215, 53, 4);
+  font-size: 150%;
+  background-color: rgb(26, 206, 197); 
+  transition: color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}

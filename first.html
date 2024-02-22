@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>first</title>
+  <link rel="stylesheet" href="styles.css">
+  <style >
+
+
+    /* CSS styles can be added here */
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #151816;
+    }
+    header {
+      background-color: mintcream;
+      color: black;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+    nav a {
+      
+      text-decoration: none;
+      color: #fff;
+      margin: 0 10px;
+      padding: 15px;
+    }
+    
+    
+    
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: #fff;
+    }
+    footer {
+      background-color: #0bbec4;
+      color: #121111;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    div{
+      position: relative;
+      font-size: 5rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 80px;
+      cursor: pointer;
+    }
+    .text{
+      -webkit-text-stroke: 1px rgb(red, green, blue);
+    }
+    .hover-text{
+      position: absolute;
+      inset: 0;
+      width: 0%;
+      color: var(--clr);
+      overflow: hidden;
+      border-right: 6px solid var(--clr);
+      transition: 0.5s ease-in-out;
+
+    }
+    div:hover .hover-text{
+      width:100%;
+      filter: drop-shadow(0 0 40px var(--clr));
+    }
+    h4:hover span{
+      color:#fff;
+      text-shadow: 0 0 0px #fff,
+      0 0 0px #fff,
+      0 0 0px #fff,
+      0 0 0px #fff,
+      0 0 40px #fff;
+      
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>comics world</h1>
+  </header>
+ 
+
+  <nav>
+    <a href="home page.html">Home</a>
+    <a href="#">About us</a>
+    <a href="#">Services</a>
+    <a href="contact us.html">Contact us</a>
+     <a href="login page.html">login</a>
+       <a href="signup page.html">signup</a>
+    
+  </nav>
+
+
+  <section>
+    <h2>Welcome to Our Website!</h2>
+    <p>This is a website were you can share your idea and thought.</p>
+  </section>
+<div><h4>
+  <span class="text">website</span>
+  <span class="hover-text">website</span>
+  </h4>
+</div>
+  <footer>
+    <p>Thank you visiting our website :)</p>
+  </footer>
+  <i data-lucide="instagram"></i>
+
+</body>
+</html>
+
